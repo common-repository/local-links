@@ -1,0 +1,150 @@
+v4.6
+
+Bug fix for Amazon author pages
+
+v4.5
+
+Amazon links now direct users in Ireland to Amazon UK
+
+v4.4
+
+Amazon links now direct New Zealand users to Amazon Australia
+
+v4.3
+
+Fixed Cross-Site Request Forgery bug that could lead to unauthorised plugin settings changes
+
+v4.2
+
+Added support for Smashwords affiliate links
+
+v4.1
+
+Added support for Amazon Attribution links. More on Amazon Attribution here: https://advertising.amazon.com/help?#GJXTJCLK4WTWTQWU
+
+v4.0
+
+* Amazon links now always go to the local store. [More information](https://gitlab.com/robinphillips/local-links/-/wikis/Amazon-Links)
+
+v3.5
+
+* Added Amazon Sweden and Amazon Poland
+
+v3.4
+
+* Bug fix: Default settings were not set correctly on new installs
+* Added Bookshop ES
+
+v3.3
+
+* Bug fix: Caching compatibility (https://wordpress.org/support/topic/caching-plugin-compatibility-2/#post-14377586)
+* Tweaks to improve performance
+
+v3.2
+
+* Bug fix: Apple audiobook links not always rewritten correctly
+
+v3.1
+
+* Bug fix: " (affiliate link)" was not added to title of OBS affiliate links
+* Minor code improvements
+
+v3.0
+
+* Minimum WordPress version is now 5.0
+* Add a title if none is set
+* Add " (affiliate link)" to title of affiliate links
+* Minor bug fixes
+
+v2.3
+
+* Added support for Bookshop.org
+* Added support for affiliate codes and src parameter on OneBookShelf sites (DriveThruFiction, DriveThruCards, DriveThruComics, DriveThruRPG, Wargame Vault)
+
+v2.2
+
+* Added support for Apple, Google, and Kobo affiliates
+* Added placeholder text to affiliate text boxes
+
+v2.1
+
+* Bug fix for B&N links
+
+v2.0
+
+* Added support for Amazon stores without Kindle stores. Paper book links go to the local store, Kindle links go to amazon.com
+* Simplified code in activation and uninstall hooks
+
+v1.14
+
+* Bug fix: Apple Books links weren't being localised properly
+
+v1.13
+
+* Bug fix: Base URLs without trailing / were not detected
+
+v1.12
+
+* Added code to clean up Barnes & Noble links
+
+v1.11
+
+* Improved error handling
+
+v1.10
+
+* Google and Facebook tracking parameters are removed (GCLID and FBCLID GET parameters)
+
+v1.9
+
+* Added support for Amazon Smile links
+
+v1.8
+
+* Added support for AbeBooks
+* Improved handling of updates
+
+v1.7
+
+* Improved sanitisation of user input, fixing a potential security issue
+
+v1.6
+
+* Improved install/uninstall handling
+* Added Settings link on plugin page
+
+v1.5
+
+* Added support for Google Play
+* Improved handling of GeoIP plugin state changes
+* i18n bug fix and improvements
+* Minified JavaScript
+
+v1.4
+
+* Amazon affiliate text boxes are disabled if GeoIP plugin is not installed
+* Ensure that all variables have a specific value set to avoid PHP warnings
+
+v1.3
+
+* Added support for Alibris
+
+v1.2
+
+* Bug fixes
+
+v1.1
+
+* Added support for Amazon affiliate codes
+* Added i18n support
+
+v1.0
+
+* Added Kobo
+* Amazon defaults to disabled, since it requires another plugin which may not be installed
+
+v0.8
+
+* Improved settings page
+* Updated plugin URI
+* Bug fix: In some circumstances, links would be edited when the setting was disabled

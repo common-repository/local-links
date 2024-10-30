@@ -1,0 +1,281 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Local Links\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2024-06-24 10:48+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Author "
+"Help (robin@authorhelp."
+"uk)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit "
+"3.4.2\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: admin/settings.php:24
+msgid ""
+"You do not have "
+"sufficient permissions "
+"to access this page."
+msgstr ""
+
+#: admin/settings.php:396
+msgid "Settings saved."
+msgstr ""
+
+#: admin/settings.php:438
+msgid ""
+"Local Links Settings"
+msgstr ""
+
+#: admin/settings.php:456
+msgid ""
+"Localize Amazon links "
+"and add affiliate codes"
+msgstr ""
+
+#: admin/settings.php:460
+#: admin/settings.php:473
+#: admin/settings.php:490
+#: admin/settings.php:507
+#: admin/settings.php:520
+msgid ""
+"GeoIP Detection plugin"
+msgstr ""
+
+#: admin/settings.php:462
+#: admin/settings.php:522
+msgid ""
+"not installed or not "
+"activated."
+msgstr ""
+
+#: admin/settings.php:469
+msgid ""
+"Localize Apple links "
+"(Apple Books, iTunes) "
+"and add affiliate codes"
+msgstr ""
+
+#: admin/settings.php:475
+msgid ""
+"not installed or not "
+"activated. Apple Books "
+"links require the GeoIP "
+"Detection plugin (iTunes "
+"links do not)."
+msgstr ""
+
+#: admin/settings.php:482
+msgid ""
+"Localize Kobo links and "
+"add affiliate codes"
+msgstr ""
+
+#: admin/settings.php:487
+msgid ""
+"Localize Alibris links"
+msgstr ""
+
+#: admin/settings.php:492
+#: admin/settings.php:509
+msgid ""
+"is not installed or not "
+"activated."
+msgstr ""
+
+#: admin/settings.php:499
+msgid ""
+"Localize Google Play "
+"links and add affiliate "
+"codes"
+msgstr ""
+
+#: admin/settings.php:504
+msgid ""
+"Localize AbeBooks links"
+msgstr ""
+
+#: admin/settings.php:516
+msgid ""
+"Localize Bookshop.org "
+"links and add affiliate "
+"codes"
+msgstr ""
+
+#: admin/settings.php:529
+msgid ""
+"Add affiliate codes and/"
+"or src parameter to "
+"OneBookShelf links "
+"(DriveThruFiction, "
+"DriveThruCards, "
+"DriveThruComics, "
+"DriveThruRPG, Wargame "
+"Vault)"
+msgstr ""
+
+#: admin/settings.php:534
+msgid ""
+"Add affiliate codes to "
+"Smashwords links"
+msgstr ""
+
+#: admin/settings.php:538
+msgid "Amazon Affiliates"
+msgstr ""
+
+#: admin/settings.php:540
+msgid ""
+"Add your Amazon "
+"affiliate codes below "
+"for each country that "
+"you have one for. They "
+"will be added to Amazon "
+"links for users in that "
+"country."
+msgstr ""
+
+#: admin/settings.php:542
+msgid ""
+"Note that Amazon "
+"affiliate codes will not "
+"be added if Amazon "
+"localization is disabled "
+"above."
+msgstr ""
+
+#: admin/settings.php:609
+msgid "Other Affiliates"
+msgstr ""
+
+#: admin/settings.php:611
+msgid ""
+"Add your other affiliate "
+"codes below for each "
+"vendor that you have one "
+"for. They will be added "
+"to that vendor's links."
+msgstr ""
+
+#: admin/settings.php:613
+msgid ""
+"Note that affiliate "
+"codes will not be added "
+"if the vendor's "
+"localization is disabled "
+"above."
+msgstr ""
+
+#: admin/settings.php:664
+msgid "Save Changes"
+msgstr ""
+
+#: admin/settings.php:672
+msgid ""
+"Amazon affiliates and "
+"some links require the"
+msgstr ""
+
+#: admin/settings.php:674
+msgid "GeoIP Detection"
+msgstr ""
+
+#: admin/settings.php:676
+msgid "plugin."
+msgstr ""
+
+#: local-links.php:114
+msgid "Settings"
+msgstr ""
+
+#: public/replacelinks.js:94
+msgid "Buy on Amazon"
+msgstr ""
+
+#: public/replacelinks.js:147
+msgid "Buy at Apple"
+msgstr ""
+
+#: public/replacelinks.js:171
+msgid "Buy at Apple Books"
+msgstr ""
+
+#: public/replacelinks.js:201
+msgid "Buy at Kobo"
+msgstr ""
+
+#: public/replacelinks.js:228
+msgid "Buy at Alibris"
+msgstr ""
+
+#: public/replacelinks.js:245
+msgid "Buy at Google"
+msgstr ""
+
+#: public/replacelinks.js:274
+msgid "Buy at AbeBooks"
+msgstr ""
+
+#: public/replacelinks.js:291
+msgid ""
+"Buy at Barnes and Noble"
+msgstr ""
+
+#: public/replacelinks.js:304
+msgid "Buy at Bookshop.org"
+msgstr ""
+
+#: public/replacelinks.js:359
+msgid "Buy at OneBookShelf"
+msgstr ""
+
+#: public/replacelinks.js:385
+msgid "Buy at Smashwords"
+msgstr ""
+
+#: public/replacelinks.js:405
+msgid " (affiliate link)"
+msgstr ""
+
+#: public/replacelinks.js:407
+msgid "Affiliate link"
+msgstr ""
